@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const ExcahngeIcon = (props: Props) => {
+
+const ExcahngeIcon = () => {
     return (
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0_495_1320" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">

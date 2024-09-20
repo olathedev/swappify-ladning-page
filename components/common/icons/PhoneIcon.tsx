@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const PhoneIcon = (props: Props) => {
+
+const PhoneIcon = () => {
     return (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0_495_1432" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">

@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-const Hero = (props: Props) => {
+
+const Hero = () => {
   return (
     <div className="container mx-auto px-4 md:px-10 flex h-full gap-20 items-center py-10">
     <div className="md:w-[35%] flex flex-col gap-3 md:gap-6 md:-mt-[20rem]">

@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const AppartmentIcon = (props: Props) => {
+
+const AppartmentIcon = () => {
     return (
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0_495_1427" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">

@@ -8,9 +8,9 @@ import FactCheckIconSm from './common/icons/FactCheckIconSm';
 import OrbitIconSm from './common/icons/OrbitIconSm';
 import ExchangeIconSm from './common/icons/ExchangeIconSm';
 
-type Props = {}
 
-const HowItWorks = (props: Props) => {
+
+const HowItWorks = () => {
 
   const howitworks = [
     { title: 'Register and List Items', description: 'Sign up on Swapify and list your items. Choose the categories youre interested in exchanging for or mark them for donation.', desktopIcon: <FactCheckIcon />, mobileIcon: <FactCheckIconSm /> },

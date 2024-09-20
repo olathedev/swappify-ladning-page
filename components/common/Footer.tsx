@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const Footer = (props: Props) => {
+
+const Footer = () => {
   return (
     <footer className=' w-full bg-[#5F5F53] text-white py-6'>
       <div className="container mx-auto px-4 md:px-20 flex flex-col md:flex-row justify-between">

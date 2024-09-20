@@ -2,9 +2,9 @@ import Footer from '@/components/common/Footer'
 import NavBar from '@/components/common/NavBar'
 import React from 'react'
 
-type Props = {}
 
-const Faq = (props: Props) => {
+
+const Faq = () => {
     const faqs = [
         { title: 'What is Swapify all about?', description: '' },
         { title: 'What is Swapify all about?', description: '' },

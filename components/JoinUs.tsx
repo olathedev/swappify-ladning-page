@@ -2,9 +2,9 @@ import { Check } from 'lucide-react'
 import React from 'react'
 import ArrowRight from './common/icons/ArrowRight'
 
-type Props = {}
 
-const JoinUs = (props: Props) => {
+
+const JoinUs = () => {
     return (
         <section className="w-full bg-[#181D17] my-6">
             <div className="container mx-auto px-4 md:px-20 py-16 flex flex-col gap-16 text-white">

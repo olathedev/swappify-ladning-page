@@ -4,9 +4,9 @@ import MailIcon from './common/icons/MailIcon'
 import PhoneIcon from './common/icons/PhoneIcon'
 import AppartmentIcon from './common/icons/AppartmentIcon'
 
-type Props = {}
 
-const GetInTouch = (props: Props) => {
+
+const GetInTouch = () => {
     return (
         <section className="container mx-auto px-4 md:px-20 py-10 flex flex-col md:flex-row gap-6 md:gap-24">
             <div className="md:w-1/2 flex flex-col md:gap-16">

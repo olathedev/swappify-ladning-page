@@ -2,9 +2,9 @@ import React from 'react'
 import ChevronDownIcon from './icons/ChevronDownIcon'
 import Link from 'next/link'
 
-type Props = {}
 
-const NavBar = (props: Props) => {
+
+const NavBar = () => {
     return (
         <nav className="container bg-white md:bg-transparent text-lg mx-auto h-14 md:h-20 px-4 md:px-10">
             {/* Desktop Nav */}

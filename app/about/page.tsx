@@ -3,7 +3,7 @@ import NavBar from '@/components/common/NavBar'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
+
 
 function About({ }: Props) {
     return (

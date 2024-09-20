@@ -1,9 +1,9 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 
-type Props = {}
 
-const NewsLetterModal = (props: Props) => {
+
+const NewsLetterModal = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     useEffect(() => {

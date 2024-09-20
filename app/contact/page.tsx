@@ -3,9 +3,9 @@ import NavBar from '@/components/common/NavBar'
 import GetInTouch from '@/components/GetInTouch'
 import React from 'react'
 
-type Props = {}
 
-const page = (props: Props) => {
+
+const page = () => {
     return (
         <div className='w-full bg-contact-bg bg-center bg-cover'>
             <div className="w-full h-full bg-white bg-opacity-80">

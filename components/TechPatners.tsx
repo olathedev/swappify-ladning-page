@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const TechPatners = (props: Props) => {
+
+const TechPatners = () => {
     return (
         <section className="w-full py-10 flex flex-col gap-6 items-center">
             <h2 className="text-3xl font-medium px-10">Our tech partners</h2>
