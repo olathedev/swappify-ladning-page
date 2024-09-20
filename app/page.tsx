@@ -3,7 +3,6 @@ import NavBar from "@/components/common/NavBar";
 import GetInTouch from "@/components/GetInTouch";
 import HowItWorks from "@/components/HowItWorks";
 import JoinUs from "@/components/JoinUs";
-import NewsLetterModal from "@/components/NewsLetterModal";
 import TechPatners from "@/components/TechPatners";
 import Hero from "@/components/ui/Hero";
 import Notification from "@/components/ui/Notification";
