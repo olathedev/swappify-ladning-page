@@ -10,11 +10,15 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #50644C 9.38%, #60603C 51.21%, #5F5F53 88%, #DDE5DB 100%)',
+        'hero-bg': 'url(/hero-bg.png)',
+        'about-bg': 'url(/about-bg.png)',
+        'contact-bg': 'url(/conatact-bg.png)'
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      
     },
   },
   plugins: [],

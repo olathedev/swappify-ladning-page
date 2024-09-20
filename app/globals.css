@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-input, text-area {
-    @apply focus:outline-none
+input, textarea {
+    @apply focus:outline-none bg-transparent
 }

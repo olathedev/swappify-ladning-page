@@ -4,10 +4,10 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <footer className='h-[290px] w-full bg-[#5F5F53] text-white py-6'>
-      <div className="container mx-auto px-20 flex justify-between">
+    <footer className=' w-full bg-[#5F5F53] text-white py-6'>
+      <div className="container mx-auto px-4 md:px-20 flex flex-col md:flex-row justify-between">
 
-        <div className="w-1/2 flex gap-28">
+        <div className="md:w-1/2 flex gap-28">
 
           <div className='flex flex-col gap-4'>
             <h4 className='text-lg font-semibold'>Quick Links</h4>
@@ -17,8 +17,6 @@ const Footer = (props: Props) => {
               <li>News</li>
               <li>FAQs</li>
               <li>Contact Us</li>
-
-
             </ul>
 
           </div>
@@ -40,6 +38,10 @@ const Footer = (props: Props) => {
             <button className='py-3 px-6 bg-white rounded-xl text-black'>Notify me</button>
           </div>
         </div>
+      </div>
+
+      <div className="mt-6 container mx-auto px-20">
+        <p className="text-sm text-white opacity-70">&copy; 2024 Swapify. All rights reserved.</p>
       </div>
     </footer>
   )
