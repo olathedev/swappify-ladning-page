@@ -5,7 +5,7 @@ import React from 'react'
 
 
 
-function About({ }: Props) {
+function About() {
     return (
         <div className='w-full bg-about-bg bg-center bg-cover'>
             <div className="w-full h-full bg-white bg-opacity-80">
