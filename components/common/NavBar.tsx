@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
     return (
-        <nav className="container bg-white md:bg-transparent text-lg mx-auto h-14 md:h-20 px-4 md:px-10">
+        <nav className="container bg-white md:bg-transparent text-lg mx-auto h-14 md:h-20 px-6 md:px-10">
             {/* Desktop Nav */}
             <div className="hidden w-full h-full md:flex items-center justify-between">
                 <Link href='/' className='cursor-pointer'>LOGO</Link>
@@ -20,7 +20,7 @@ const NavBar = () => {
                     <li> <Link href='/contact'> Contact Us </Link></li>
                 </ul>
 
-                <div className="bg-[#E3E3DE] py-2 px-4 rounded-lg text-[#50644C] text-base flex gap-2 items-center ">
+                <div className="bg-[#E3E3DE] py-2 px-6 rounded-lg text-[#50644C] text-base flex gap-2 items-center ">
                     Get Swappify
                     <ChevronDownIcon />
                 </div>

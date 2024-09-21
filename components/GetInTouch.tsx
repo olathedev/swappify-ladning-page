@@ -8,7 +8,7 @@ import AppartmentIcon from './common/icons/AppartmentIcon'
 
 const GetInTouch = () => {
     return (
-        <section className="container mx-auto px-4 md:px-20 py-10 flex flex-col md:flex-row gap-6 md:gap-24">
+        <section className="container mx-auto px-6 md:px-20 py-10 flex flex-col md:flex-row gap-6 md:gap-24">
             <div className="md:w-1/2 flex flex-col md:gap-16">
                 <header>
                     <h1 className="text-xl md:text-3xl font-bold mb-2">Get in touch</h1>

@@ -7,7 +7,7 @@ import ArrowRight from './common/icons/ArrowRight'
 const JoinUs = () => {
     return (
         <section className="w-full bg-[#181D17] my-6">
-            <div className="container mx-auto px-4 md:px-20 py-16 flex flex-col gap-16 text-white">
+            <div className="container mx-auto px-6 md:px-20 py-16 flex flex-col gap-16 text-white">
                 <header className="md:text-center flex flex-col md:items-center">
                     <h1 className="text-2xl md:text-3xl mb-1 font-medium">Swapify is more than just swapping...</h1>
                     <p className="md:text-xl">...it is a community of people dedicated to promoting sustainability through smart exchanges and donations</p>

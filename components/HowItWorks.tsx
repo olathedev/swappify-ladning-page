@@ -22,7 +22,7 @@ const HowItWorks = () => {
     { title: 'Successful Trades and Donations', description: 'Track your successful trades and donations, and build your verified profile.', desktopIcon: <SuccessfulTrades />, mobileIcon: <FactCheckIconSm /> },
   ]
   return (
-    <div className="mt-20 mb-36 container mx-auto px-4 md:px-20 flex flex-col md:flex-row gap-4 md:gap-32">
+    <div className="mt-10 md:mt-20 mb-10 md:mb-36 container mx-auto px-6 md:px-20 flex flex-col md:flex-row gap-4 md:gap-32">
       <div className="md:w-[40%] flex flex-col gap-16 ">
         <div className='text-center md:text-start'>
           <h2 className="text-xl md:text-3xl font-bold">Here’s how it works:</h2>
