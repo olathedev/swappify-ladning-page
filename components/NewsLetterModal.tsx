@@ -9,7 +9,7 @@ const NewsLetterModal = () => {
     
     return (
         isOpen && (
-            <div className='w-full fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm flex items-center  p-4 justify-center'>
+            <div className='w-full fixed inset-0 bg-black bg-opacity-40 flex items-center  p-4 justify-center'>
                 <div className="w-full md:w-[643px] bg-white rounded-lg p-6 flex gap-3">
                     <span className='hidden md:flex'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
