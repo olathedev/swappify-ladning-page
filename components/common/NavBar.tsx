@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
     return (
-        <nav className="container bg-white md:bg-transparent text-lg mx-auto h-14 md:h-20 px-6 md:px-10">
+        <nav className="container bg-white md:bg-transparent text-lg mx-auto h-16 md:h-20 px-6 md:px-10">
             {/* Desktop Nav */}
             <div className="hidden w-full h-full md:flex items-center justify-between">
                 <Link href='/' className='cursor-pointer'>LOGO</Link>
