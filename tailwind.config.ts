@@ -15,7 +15,7 @@ const config: Config = {
         'contact-bg': 'url(/conatact-bg.png)'
       },
       colors: {
-        background: "var(--background)",
+        primary: "#50644C",
         foreground: "var(--foreground)",
       },
       

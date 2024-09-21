@@ -33,14 +33,20 @@ const Footer = () => {
         <div className='flex flex-col gap-4'>
           <h4 className='text-lg font-semibold'>Join our waitlist</h4>
           <p>Subscribe and get updates on our launch date</p>
-          <div className="flex gap-3 items-center">
-            <input type="text" placeholder='Enter your email' className='p-3 w-[387px] border text-[#DDE5DB] border-[#DDE5DB] rounded-lg bg-transparent placeholder:text-[#DDE5DB]' />
-            <button className='py-3 px-6 bg-white rounded-xl text-black'>Notify me</button>
+          <div className="w-full flex flex-col md:flex-row gap-3 items-center">
+            <input type="text" placeholder='Enter your email' className='p-3 w-full md:w-[387px] border text-[#DDE5DB] border-[#DDE5DB] rounded-lg bg-transparent placeholder:text-[#DDE5DB]' />
+            <button className='w-full md:flex-1 py-3 px-6 bg-white rounded-xl text-black text-sm md:text-base'>Notify me</button>
           </div>
         </div>
       </div>
 
-      <div className="mt-6 container mx-auto px-20">
+
+      <div className="mt-6 container mx-auto px-4 md:px-20 flex flex-col">
+        <div className="flex">
+          <span>
+            
+          </span>
+        </div>
         <p className="text-sm text-white opacity-70">&copy; 2024 Swapify. All rights reserved.</p>
       </div>
     </footer>
