@@ -1,19 +1,17 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import { useModal } from '@/hooks/useModal'
+import React from 'react'
 
 
 
 const NewsLetterModal = () => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    useEffect(() => {
-        setIsOpen(true)
-    }, [])
+    const {isOpen, closeModal} = useModal()
+    
     return (
         isOpen && (
-            <div className='w-full fixed inset-0 bg-black bg-opacity-35 backdrop-blur-sm flex items-center  p-4 justify-center'>
+            <div className='w-full fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm flex items-center  p-4 justify-center'>
                 <div className="w-full md:w-[643px] bg-white rounded-lg p-6 flex gap-3">
-                    <span>
+                    <span className='hidden md:flex'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_292_4831" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                                 <rect width="24" height="24" fill="#D9D9D9" />
@@ -28,7 +26,7 @@ const NewsLetterModal = () => {
                     <div className="flex flex-col gap-4 w-full">
                         <h3 className='text-[#50644C] text-lg font-bold w-full flex  items-center justify-between'>
                             Swapify is coming soon!
-                            <span className='cursor-pointer' onClick={() => setIsOpen(false)}>
+                            <span className='cursor-pointer' onClick={closeModal}>
                                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="#50644C" />
                                 </svg>
@@ -39,7 +37,7 @@ const NewsLetterModal = () => {
 
                         <p className='text-[#50644C]'>We’re working tirelessly to give you the best experience. But you can join our other amazing customers on the waitlist and be among the first to try out the app.</p>
 
-                        <div className='w-full flex gap-3'>
+                        <div className='w-full flex flex-col md:flex-row gap-3'>
                             <input type="text" className='grow border p-3 rounded-lg' placeholder='Enter your email' />
                             <button className='py-3 px-6 text-lg rounded-xl bg-[#50644C] text-[#DDE5DB]'>Join waitlist</button>
                         </div>

@@ -1,9 +1,13 @@
+'use client'
+import { useModal } from '@/hooks/useModal'
 import Image from 'next/image'
 import React from 'react'
 
 
 
 const Hero = () => {
+  const {openModal} = useModal()
+
   return (
     <div className="container mx-auto px-6 md:px-10 flex h-full items-center py-10">
     <div className="md:w-[35%] flex flex-col gap-2 md:gap-1 md:-mt-[20rem]">
@@ -11,9 +15,9 @@ const Hero = () => {
         
         <h4 className="text-xl font-medium">Declutter, donate, or discover. </h4>
         <p className="font-normal text-lg text-primary">Sustainable living starts here.</p>
-        <div className="flex gap-3 mt-6">
-          <img src='/googleplay.png' alt="" className='md:w-[205px] w-[133px] h-[42px] md:h-[64px]' />
-          <img src='/appstore.png' alt="" className='md:w-[205px] w-[133px] h-[42px] md:h-[64px]' />
+        <div className="flex gap-3 mt-6 cursor-pointer">
+          <img src='/googleplay.png' alt="" className='md:w-[205px] w-[133px] h-[42px] md:h-[64px]' onClick={openModal}  />
+          <img src='/appstore.png' alt="" className='md:w-[205px] w-[133px] h-[42px] md:h-[64px]' onClick={openModal}  />
         </div>
     </div>
 

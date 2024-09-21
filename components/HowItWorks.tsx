@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import ArrowRight from "@/components/common/icons/ArrowRight";
 import ExcahngeIcon from "@/components/common/icons/ExcahngeIcon";
@@ -7,10 +8,12 @@ import SuccessfulTrades from "@/components/common/icons/SuccessfulTrades";
 import FactCheckIconSm from './common/icons/FactCheckIconSm';
 import OrbitIconSm from './common/icons/OrbitIconSm';
 import ExchangeIconSm from './common/icons/ExchangeIconSm';
+import { useModal } from '@/hooks/useModal';
 
 
 
 const HowItWorks = () => {
+  const {openModal} = useModal()
 
   const howitworks = [
     { title: 'Register and List Items', description: 'Sign up on Swapify and list your items. Choose the categories youre interested in exchanging for or mark them for donation.', desktopIcon: <FactCheckIcon />, mobileIcon: <FactCheckIconSm /> },
@@ -29,7 +32,7 @@ const HowItWorks = () => {
           <p className="text-sm md:text-xl">Join the Swapify community in 4 easy steps</p>
         </div>
 
-        <button className="hidden md:flex bg-[#50644C] py-3 px-6 rounded-xl text-white  justify-center items-center gap-3 text-lg">Start swapping
+        <button className="hidden md:flex bg-[#50644C] py-3 px-6 rounded-xl text-white  justify-center items-center gap-3 text-lg" onClick={openModal}>Start swapping
           <ArrowRight />
         </button>
       </div>
