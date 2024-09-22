@@ -52,7 +52,7 @@ const HowItWorks = () => {
             </div>
           ))}
 
-          <button className="md:hidden flex bg-[#50644C] py-2 px-6 rounded-xl text-white  justify-center items-center gap-3">Start swapping
+          <button className="md:hidden flex bg-[#50644C] py-2 px-6 rounded-xl text-white  justify-center items-center gap-3" onClick={openModal}>Start swapping
             <ArrowRight />
           </button>
 

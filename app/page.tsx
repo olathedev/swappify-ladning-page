@@ -5,7 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import JoinUs from "@/components/JoinUs";
 import NewsLetterModal from "@/components/NewsLetterModal";
 import TechPatners from "@/components/TechPatners";
-import Hero from "@/components/ui/Hero";
+import Hero from "@/components/Hero";
 import Notification from "@/components/ui/Notification";
 
 export default function Home() {

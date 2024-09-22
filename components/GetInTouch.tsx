@@ -34,7 +34,7 @@ const GetInTouch = () => {
                         <span>
                             <MailIcon />
                         </span>
-                        support@swapify.com
+                        support@swapify.ee
                     </div>
                 </div>
             </div>

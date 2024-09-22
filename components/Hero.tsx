@@ -9,7 +9,7 @@ const Hero = () => {
   const {openModal} = useModal()
 
   return (
-    <div className="container mx-auto px-6 md:px-10 flex h-full items-center py-10">
+    <div className="container mx-auto px-6 md:px-10 flex h-full items-center py-8">
     <div className="md:w-[35%] flex flex-col gap-2 md:gap-1 md:-mt-[20rem]">
         <h1 className="text-2xl md:leading-[45px] md:text-[36px] font-bold mb-1 md:mb-6">Swapify: Your Smart Barter Platform</h1>
         
