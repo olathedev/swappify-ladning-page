@@ -79,7 +79,7 @@ const GetInTouch = () => {
                         <span>
                             {/* <PhoneIcon /> */}
                         </span>
-                        +372 123 4567
+                        +372 5362 2081
                     </div>
 
                     <div className="flex gap-6 items-center">

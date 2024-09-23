@@ -11,7 +11,7 @@ function About() {
             <div className="w-full h-full bg-white bg-opacity-80">
                 <NavBar />
                 <hr className="border border-white w-full" />
-                <div className='container mx-auto px-10 py-10'>
+                <div className='container mx-auto px-6 md:px-10 py-10'>
                     <h1 className='text-3xl font-bold text-center py-4'>About Swapify</h1>
 
                     <div className="flex flex-col md:flex-row gap-10 py-10">

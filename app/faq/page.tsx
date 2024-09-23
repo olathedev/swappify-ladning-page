@@ -28,10 +28,9 @@ const Faq = () => {
                 <NavBar />
                 <hr />
 
-                <div className='container mx-auto px-10 py-20 flex justify-center'>
+                <div className='container mx-auto px-6 md:px-10 py-20 flex justify-center'>
                     <div className='w-[920px]'>
                         <h1 className='text-3xl font-bold py-4'>Frequently Asked Questions</h1>
-
                         <div className="flex flex-col gap-6 pt-10">
                             {faqs.map((faq, index) => (
                                 <div key={index}>
