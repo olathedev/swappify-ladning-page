@@ -1,5 +1,4 @@
 import Footer from '@/components/common/Footer'
-import ArrowRight from '@/components/common/icons/ArrowRight'
 import NavBar from '@/components/common/NavBar'
 import { ArrowRightIcon } from 'lucide-react'
 import React from 'react'
@@ -15,7 +14,7 @@ const NewsDetails = () => {
                         <h1 className='text-3xl font-bold mb-2'>Swapify at the African Business Summit in Estonia</h1>
                     </header>
 
-                    <div className=" flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-4">
                         <h3 className="font-semibold text-lg">Swapify at the African Business Summit in Estonia
                         </h3>
                         <div className='flex flex-col gap-2'>
@@ -37,7 +36,7 @@ const NewsDetails = () => {
 
                             <p>For more information about our participation in the summit and our ongoing initiatives, please visit the African Business Summit website.</p>
 
-                            <p>Together, let's drive a better green economy and create a more sustainable world for future generations.</p>
+                            <p>Together, let&apos;s drive a better green economy and create a more sustainable world for future generations.</p>
                         </div>
 
                         <div className='pt-10 cursor-pointer'>

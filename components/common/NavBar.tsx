@@ -4,7 +4,6 @@ import ChevronDownIcon from './icons/ChevronDownIcon'
 import Link from 'next/link'
 import { InfoIcon } from 'lucide-react';
 import FaqIcon from './icons/FaqIcon';
-import ContactUs from './icons/ContactUs';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { useModal } from '@/hooks/useModal';
