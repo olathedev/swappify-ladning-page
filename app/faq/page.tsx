@@ -8,14 +8,14 @@ import { motion } from 'framer-motion';
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
     const faqs = [
-        { title: 'What is Swapify?', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
-        { title: 'Who can trade on Swapify?', description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
-        { title: 'How do I trade on Swapify?', description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' },
-        { title: 'Is Swapify free?', description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-        { title: 'How long does a trade take?', description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
-        { title: 'How do I apply for an item listed for donation?', description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' },
-        { title: 'Can I own multiple accounts?', description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' },
-        { title: 'Is my data and personal information safe on Swapify?', description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+        { title: 'What is Swapify?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'Who can trade on Swapify?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'How do I trade on Swapify?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'Is Swapify free?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'How long does a trade take?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'How do I apply for an item listed for donation?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'Can I own multiple accounts?', description: 'Swapify is a barter platform that allows you swap items with other users' },
+        { title: 'Is my data and personal information safe on Swapify?', description: 'Swapify is a barter platform that allows you swap items with other users '},
         { title: 'How do I report failed trades?', description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' }];
 
     const toggleFAQ = (index: number) => {
@@ -23,7 +23,7 @@ const Faq = () => {
     };
 
     return (
-        <div className='w-full bg-about-bg bg-cover bg-center'>
+        <div className='w-full bg-about-bg bg-cover h-full bg-center'>
             <div className="bg-white bg-opacity-80">
                 <NavBar />
                 <hr />

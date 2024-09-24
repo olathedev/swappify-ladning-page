@@ -5,7 +5,7 @@ import React from 'react'
 
 
 
-const page = () => {
+const Contact = () => {
     return (
         <div className='w-full bg-contact-bg bg-center bg-cover'>
             <div className="w-full h-full bg-white bg-opacity-80">
@@ -24,4 +24,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Contact
