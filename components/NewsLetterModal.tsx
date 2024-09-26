@@ -1,7 +1,6 @@
 'use client'
 import { useModal } from '@/hooks/useModal'
 import { axiosInstance } from '@/lib/axios.config'
-import axios from 'axios'
 import React, { FormEvent, useState } from 'react'
 import { toast } from 'sonner'
 
