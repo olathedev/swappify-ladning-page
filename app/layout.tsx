@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from 'next/font/google'
 import "./globals.css";
 import { ModalProvider } from "@/context/ModalContext";
+import { Toaster } from "sonner";
 
 const poppins = Poppins({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700"] })
 
@@ -20,6 +21,8 @@ export default function RootLayout({
       <body
         className={`${poppins.className} scroll-smooth`}
       >
+          <Toaster closeButton position="top-center" expand={true} richColors />
+
         <ModalProvider>
           {children}
         </ModalProvider>

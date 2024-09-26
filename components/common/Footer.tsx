@@ -1,6 +1,5 @@
+import Link from 'next/link'
 import React from 'react'
-
-
 
 const Footer = () => {
   return (
@@ -12,11 +11,11 @@ const Footer = () => {
           <div className='flex flex-col gap-4'>
             <h4 className='font-bold'>Quick Links</h4>
             <ul className='flex flex-col gap-2 text-sm md:text-base'>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>News</li>
-              <li>FAQs</li>
-              <li>Contact Us</li>
+              <Link href='/'><li>Home</li></Link>
+              <Link href='/about'><li>About Us</li></Link>
+              <Link href='/news'><li>News</li></Link>
+              <Link href='/faq'><li>FAQs</li></Link>
+              <Link href='/contact'><li>Contact Us</li></Link>
             </ul>
 
           </div>
