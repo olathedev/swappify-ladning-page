@@ -30,7 +30,6 @@ const NewsLetterModal = () => {
             closeModal()
         } catch (error: any) {
             setIsSubmitting(false)
-            // console.log(error.response.data.error)
             toast.error(error.response.data.error)
             setEmail('')
         }
