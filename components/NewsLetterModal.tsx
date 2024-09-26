@@ -38,9 +38,8 @@ const NewsLetterModal = () => {
                     error: error.response?.data
                 }
             }
-
             setIsSubmitting(false)
-            toast.error(apiError?.message)
+            toast.error(apiError?.message || 'something went wrong, please try again')
             setEmail('')
         }
     }
