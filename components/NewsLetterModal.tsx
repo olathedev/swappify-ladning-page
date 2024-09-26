@@ -1,6 +1,7 @@
 'use client'
 import { useModal } from '@/hooks/useModal'
 import { axiosInstance } from '@/lib/axios.config'
+import axios from 'axios'
 import React, { FormEvent, useState } from 'react'
 import { toast } from 'sonner'
 
@@ -28,9 +29,18 @@ const NewsLetterModal = () => {
             setEmail('')
             toast.success(response.data.message)
             closeModal()
-        } catch (error: any) {
+        } catch (error) {
+            let apiError;
+            if (axios.isAxiosError(error)) {
+                apiError = {
+                    message: error.response?.data?.error,
+                    status: error.response?.status || 'Error',
+                    error: error.response?.data
+                }
+            }
+
             setIsSubmitting(false)
-            toast.error(error.response.data.error)
+            toast.error(apiError?.message)
             setEmail('')
         }
     }
