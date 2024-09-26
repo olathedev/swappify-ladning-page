@@ -16,7 +16,7 @@ const NewsLetterModal = () => {
         e.preventDefault()
 
         if (!email) {
-            alert('provide a valid email')
+            toast.error('provide a valid email')
             return
         }
         try {
