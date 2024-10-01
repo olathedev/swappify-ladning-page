@@ -21,7 +21,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} scroll-smooth`}
       >
-          <Toaster closeButton position="top-center" expand={true} richColors />
+        <Toaster closeButton position="top-center" expand={true} richColors />
         <ModalProvider>
           {children}
         </ModalProvider>
