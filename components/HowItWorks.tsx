@@ -13,7 +13,7 @@ import { useModal } from '@/hooks/useModal';
 
 
 const HowItWorks = () => {
-  const {openModal} = useModal()
+  const { openModal } = useModal()
 
   const howitworks = [
     { title: 'Register and List Items', description: 'Sign up on Swapify and list your items. Choose the categories youre interested in exchanging for or mark them for donation.', desktopIcon: <FactCheckIcon />, mobileIcon: <FactCheckIconSm /> },
@@ -32,7 +32,7 @@ const HowItWorks = () => {
           <p className="text-sm md:text-xl">Join the Swapify community in 4 easy steps</p>
         </div>
 
-        <button className="hidden md:flex bg-[#50644C] py-3 px-6 rounded-xl text-white  justify-center items-center gap-3 text-lg" onClick={openModal}>Start swapping
+        <button className="hidden md:flex bg-[#50644C] py-3 px-6 rounded-xl text-white  justify-center items-center gap-3 text-lg transition duration-200 hover:bg-[#738370]" onClick={openModal}>Start swapping
           <ArrowRight />
         </button>
       </div>
@@ -44,7 +44,6 @@ const HowItWorks = () => {
             <div className="flex gap-3" key={index}>
               <span className='hidden md:flex'>{item.desktopIcon}</span>
               <span className='md:hidden'>{item.mobileIcon}</span>
-
               <div className="flex  flex-col gap-2">
                 <p className="text-sm md:text-xl font-medium"><span className="font-semibold">Step {index + 1}: {item.title}</span> </p>
                 <p className="md:text-lg text-sm"> {item.description} </p>
@@ -52,7 +51,7 @@ const HowItWorks = () => {
             </div>
           ))}
 
-          <button className="md:hidden flex bg-[#50644C] py-2 px-6 rounded-xl text-white  justify-center items-center gap-3" onClick={openModal}>Start swapping
+          <button className="md:hidden flex bg-[#50644C] py-2 px-6 rounded-xl text-white justify-center items-center gap-3 transition duration-200 hover:bg-[#738370]" onClick={openModal}>Start swapping
             <ArrowRight />
           </button>
 

@@ -76,7 +76,7 @@ const NewsLetterModal = () => {
 
                         <form className='w-full flex flex-col md:flex-row gap-3' onSubmit={handleSubmit}>
                             <input type="text" className='grow border p-3 rounded-lg' placeholder='Enter your email' value={email} onChange={(e) => setEmail(e.target.value)} />
-                            <button className='py-3 px-6 text-lg rounded-xl bg-[#50644C] text-[#DDE5DB]' disabled={isSubmitting}>{!isSubmitting ? 'Join waitlist' : 'Processing...'}</button>
+                            <button className='py-3 px-6 text-lg rounded-xl bg-[#50644C] text-[#DDE5DB] transition duration-200 hover:bg-[#738370]' disabled={isSubmitting}>{!isSubmitting ? 'Join waitlist' : 'Processing...'}</button>
                         </form>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ const JoinUs = () => {
                             </li>
                         </ul>
 
-                        <button className="bg-white py-3 text-black flex justify-center items-center gap-10 rounded-xl text-lg font-medium">Join our community <ArrowRight /> </button>
+                        <button className="bg-white py-3 text-black flex justify-center items-center gap-10 rounded-xl text-lg font-medium hover:bg-gray-200 transition duration-200">Join our community <ArrowRight /> </button>
                     </div>
 
                     <div className="md:w-[45%]">
