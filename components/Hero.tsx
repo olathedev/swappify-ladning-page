@@ -22,8 +22,8 @@ const Hero = () => {
     </div>
 
     <div className="hidden w-full md:flex justify-start md:justify-start relative md:w-[70%] overflow-hidden h-full">
-         <Image src='/splash.png' alt="" width={1000} height={750} className="absolute -left-20" />
-         <Image src='/home.png' alt="" width={1000} height={750} className="absolute top-20 left-16" />
+         <Image src='/splash.png' alt="" width={1000} height={750} className="absolute -left-20" onClick={openModal} />
+         <Image src='/home.png' alt="" width={1000} height={750} className="absolute top-20 left-16" onClick={openModal} />
           {/* <Image src='/heroImg2.png' alt="" width={300} height={350} /> */}
     </div>
 </div>

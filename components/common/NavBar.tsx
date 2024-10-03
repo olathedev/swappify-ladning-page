@@ -46,7 +46,7 @@ const NavBar = () => {
           className="bg-[#f8f8e5] py-2 px-6 rounded-lg text-[#50644C] text-base flex gap-2 items-center cursor-pointer"
           onClick={openModal}
         >
-          Get Swappify
+          Get swapify
           <ChevronDownIcon />
         </div>
       </div>
@@ -135,7 +135,7 @@ const NavBar = () => {
                 className="bg-[#E3E3DE] py-2 px-6 rounded-lg text-[#50644C] text-base flex gap-2 items-center cursor-pointer"
                 onClick={openModal}
               >
-                Get Swappify
+                Get swapify
                 <ChevronDownIcon />
               </button>
             </div>

@@ -40,7 +40,7 @@ const NewsDetails = () => {
                         </div>
 
                         <div className='pt-10 cursor-pointer'>
-                        <img src="/swappifyafric.png" alt="" className='' />
+                        <img src="/swapifyafric.png" alt="" className='' />
 
                         </div>
 

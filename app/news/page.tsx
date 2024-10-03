@@ -21,7 +21,7 @@ const page = () => {
                             </h4>
                             <p className='my-2'>Swapify recently attended the African Business Summit held by the Ministry of Foreign Affairs in Estonia. This prestigious event, which aims to foster economic collaboration and strengthen business ties between Estonia and Africa, provided an excellent platform for us to explore new opportunities and forge meaningful connections...</p>
 
-                            <Link href='/news/swappify-at-african-business-summit' className="inline-flex items-center gap-2 text-primary my-2">
+                            <Link href='/news/swapify-at-african-business-summit' className="inline-flex items-center gap-2 text-primary my-2">
                                 <span className=''>Read More</span>
                                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10 12L8.6 10.55L12.15 7H0V5H12.15L8.6 1.45L10 0L16 6L10 12Z" fill="#5F5F53" />
